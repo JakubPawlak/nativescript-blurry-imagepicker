@@ -1,0 +1,9 @@
+<GridLayout class="page">
+    <TabView class="tab-view">
+        <StackLayout *tabItem="{title: 'appimage'}">
+            <Label text="out of page router" textWrap="true"></Label>
+            <app-image ></app-image>
+        </StackLayout>
+        <page-router-outlet *tabItem="{title: 'router image'}" name="imageOutlet"></page-router-outlet>
+    </TabView>
+</GridLayout>
